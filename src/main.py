@@ -1,5 +1,6 @@
 from skidl import *
 from os import environ
+from utilities import release
 
 environ["KICAD_SYMBOL_DIR"] = "/Library/Application Support/kicad/library"
 
@@ -17,3 +18,4 @@ vcc += camera["CAM_3V3"]
 gnd += camera["GND"]
 
 generate_netlist()
+release()
