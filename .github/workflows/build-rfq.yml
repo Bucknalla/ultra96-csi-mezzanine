@@ -1,8 +1,7 @@
-name: Build RFQ for SKiDL
+name: Netlist
 
 on:
-  pull_request:
-    types: [opened, synchronize, closed]
+  push:
     branches:
       - master
       - main
