@@ -1,6 +1,6 @@
 *_sklib.py
-.erc
-.log
-.net
-.DS_Store
-.vscode
+*.erc
+*.log
+*.net
+*.DS_Store
+*.vscode
